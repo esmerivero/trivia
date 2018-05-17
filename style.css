@@ -1,0 +1,60 @@
+h1{
+  color: #ccccff;
+  font-style: italic;
+  font-size: 75px;
+  text-align: center;
+}
+
+#CORRECTAS{
+  color: black;
+  display: inline-flex;
+  padding: 2em;
+  margin: 3em;
+  height: 30em;
+  position: static;
+  background-position: left;
+  border: 3em;
+  border-style: ridge;
+  width:245px;
+  background:#ffccff;
+  float:left
+
+}
+
+#INCORRECTAS{
+  color: black;
+  display: inline-flex;
+  padding: 2em;
+  margin: 3em;
+  height: 30em;
+  position: static;
+  background-position: right;
+  border: 3em;
+  border-style: groove;
+  width:245px;
+  background:#ffcccc;
+  float:right
+}
+
+/*DA UN SALTO DE LINEA EN EL CONTENEDOR DIV*/
+div#CORRECTAS{
+  white-space: pre-line;
+}
+
+div#INCORRECTAS{
+    white-space: pre-line;
+}
+
+body{
+  background-image: url('imagenes/socialmediawall_unicorn_jetpack_barcamp_wallpapers.jpg');
+  background-size: contain;
+  padding: auto;
+  width: auto;
+}
+
+h2{
+  color: #99ff99;
+  font-style: italic;
+  font-size: 50px;
+  text-align: cente\r;
+}
